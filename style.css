@@ -1,0 +1,141 @@
+*{
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    height: 69px;;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+.Logo{
+    height: 50px;
+    padding-left: 10px;
+}
+
+.link{
+    text-align: end;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.breadcrump{
+    display: inline;
+}
+
+.breadcrump li{
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+/* section */
+.section-one{
+    position: relative;
+    top: 70px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img-mission-background.jpg);
+}
+h2{
+    font-size: 30px;
+}
+
+.second-container{
+    opacity: 1;
+}
+
+.title{
+    padding-top: 20px;
+}
+
+.section-two{
+    width: 1000px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section-two h2{
+    font-size: 30px;
+}
+
+.image-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.image-div img{
+    height: 200px;
+    padding-right: 30px;
+    width: 300px;
+}
+
+.image-div h4{
+    margin-top: 10px;
+}
+
+.section-three{
+    width: 1200px;
+    height: 500px;
+    margin: 40px auto 0px;
+    background-image: url(img-locations-background.jpg);
+}
+
+.section-three h2{
+    padding-top: 50px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    font-size: 30px;
+}
+.div-three{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.flex-item{
+    width: 300px;
+    line-height: 40px;
+    margin-right: 40px;
+    opacity: 1;
+}
+
+.section-four{
+    height: 200px;
+}
+
+.section-four h1{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.section-four h5{
+    font-size: 20px;
+}
+
+
+footer h5{
+    text-align: left;
+    font-size: 16px;
+    padding-left: 10px;
+}
